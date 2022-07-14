@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/mock-handle",
+  "sourceRoot": "libs/mock-handle/src",
+  "prefix": "my-sheet",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/mock-handle"],
+      "options": {
+        "jestConfig": "libs/mock-handle/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/mock-handle/src/**/*.ts",
+          "libs/mock-handle/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

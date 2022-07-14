@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "data-base": "libs/data-base",
+    "mock-handle": "libs/mock-handle",
     "sheet-app": "apps/sheet-app",
     "sheet-app-e2e": "apps/sheet-app-e2e",
     "sheet-handle": "libs/sheet-handle"

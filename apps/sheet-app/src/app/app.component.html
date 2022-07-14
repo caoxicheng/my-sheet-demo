@@ -6,7 +6,10 @@
   <button disabled>导入Excel</button>
 </div>
 <div>
-  <button>生成数据</button>
+  <button (click)="mockData()">同步生成数据</button>
+</div>
+<div>
+  <button (click)="mockDataAsync()">异步生成数据</button>
 </div>
 <div>
   <button (click)="exportExcel()">导出Excel</button>
