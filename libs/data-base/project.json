@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/data-base",
+  "sourceRoot": "libs/data-base/src",
+  "prefix": "my-sheet",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/data-base"],
+      "options": {
+        "jestConfig": "libs/data-base/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/data-base/src/**/*.ts",
+          "libs/data-base/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

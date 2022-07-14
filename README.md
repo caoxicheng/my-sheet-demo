@@ -2,6 +2,23 @@
 
 # MySheet
 
+
+# TODO
+
+大方向
+- [x] 导出简单的Excel
+- [ ] 分批生成数据
+- [ ] 给出进度条
+- [ ] 生成 1,000 (千)条伪造数据
+- [ ] 生成 10,000 (万)条伪造数据
+- [ ] 生成 100,000 (十万条伪造数据
+- [ ] 生成 1,000,000 (百万)条伪造数据
+
+小工具
+- [ ] 伪造数据助手
+
+
+
 This project was generated using [Nx](https://nx.dev).
 
 <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>

@@ -22,6 +22,7 @@
     "@nrwl/angular": "13.10.6",
     "rxjs": "~7.4.0",
     "tslib": "^2.0.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.18.9/xlsx-0.18.9.tgz",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {

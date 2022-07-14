@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/sheet-handle",
+  "sourceRoot": "libs/sheet-handle/src",
+  "prefix": "my-sheet",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/sheet-handle"],
+      "options": {
+        "jestConfig": "libs/sheet-handle/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/sheet-handle/src/**/*.ts",
+          "libs/sheet-handle/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
