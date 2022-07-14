@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "sheet-app": "apps/sheet-app",
+    "sheet-app-e2e": "apps/sheet-app-e2e"
+  }
+}
