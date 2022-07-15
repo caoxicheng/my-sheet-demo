@@ -21,10 +21,10 @@ export class MockHandleService {
    * @description id 自增
    */
   readonly baseConfig = {
-    id: '@id',
+    guid: '@id',
     姓名: '@cname',
     '性别|1': ['男', '女'],
-    email: '@email',
+    邮箱: '@email',
   };
 
   /**

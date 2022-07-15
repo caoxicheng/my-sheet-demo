@@ -19,7 +19,8 @@
           "apps/sheet-app/src/assets"
         ],
         "styles": ["apps/sheet-app/src/styles.scss"],
-        "scripts": []
+        "scripts": [],
+        "webWorkerTsConfig": "apps/sheet-app/tsconfig.worker.json"
       },
       "configurations": {
         "production": {
@@ -86,7 +87,8 @@
       "outputs": ["coverage/apps/sheet-app"],
       "options": {
         "jestConfig": "apps/sheet-app/jest.config.js",
-        "passWithNoTests": true
+        "passWithNoTests": true,
+        "webWorkerTsConfig": "apps/sheet-app/tsconfig.worker.json"
       }
     }
   },

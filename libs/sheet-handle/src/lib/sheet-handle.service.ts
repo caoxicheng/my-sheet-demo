@@ -12,6 +12,7 @@ export class SheetHandleService {
       /* fetch JSON data and parse */
       const url = 'https://sheetjs.com/executive.json';
       raw_data = await (await fetch(url)).json();
+      console.log(raw_data);
     } catch (e) {
       //如果网络不行
       raw_data = JSON.parse(JSON.stringify(_raw_data.default));
