@@ -15,9 +15,18 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@my-sheet/data-base": ["libs/data-base/src/index.ts"],
-      "@my-sheet/mock-handle": ["libs/mock-handle/src/index.ts"],
-      "@my-sheet/sheet-handle": ["libs/sheet-handle/src/index.ts"]
+      "@my-sheet/data-base": [
+        "libs/data-base/src/index.ts"
+      ],
+      "@my-sheet/mock-handle": [
+        "libs/mock-handle/src/index.ts"
+      ],
+      "@my-sheet/sheet-handle": [
+        "libs/sheet-handle/src/index.ts"
+      ],
+      "@my-sheet/web-workber": [
+        "libs/web-workber/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

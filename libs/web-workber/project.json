@@ -1,0 +1,28 @@
+{
+  "projectType": "library",
+  "root": "libs/web-workber",
+  "sourceRoot": "libs/web-workber/src",
+  "prefix": "my-sheet",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": [
+        "coverage/libs/web-workber"
+      ],
+      "options": {
+        "jestConfig": "libs/web-workber/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web-workber/src/**/*.ts",
+          "libs/web-workber/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

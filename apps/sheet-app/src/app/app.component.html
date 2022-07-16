@@ -8,17 +8,9 @@
 </div>
 <div class="flex">
   <button (click)="mockData()">同步生成数据</button>
-  <button (click)="mockDataAsync()" [disabled]="step !== progress">异步生成数据</button>
+  <button (click)="mockDataAsync()">异步生成数据</button>
 </div>
 <div class="flex">
   <button (click)="exportExcel()">同步导出Excel</button>
   <button (click)="exportExcelAsync()">异步导出Excel</button>
-</div>
-
-
-<div>
-  <h2>进度条</h2>
-  <span class="progress-box">
-    <span *ngIf="step > 0" [style.width]="step !== progress ?  (progress/step * 100).toFixed(2) + '%' : '100%'" class="progress-bar"></span>
-  </span>
 </div>

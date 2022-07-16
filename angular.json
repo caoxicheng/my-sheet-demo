@@ -5,6 +5,7 @@
     "mock-handle": "libs/mock-handle",
     "sheet-app": "apps/sheet-app",
     "sheet-app-e2e": "apps/sheet-app-e2e",
-    "sheet-handle": "libs/sheet-handle"
+    "sheet-handle": "libs/sheet-handle",
+    "web-workber": "libs/web-workber"
   }
 }
